@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>datastorage-consumer</artifactId>
+        <groupId>com.govcloud.digst</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../datastorageconsumer/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>datastorage-maprdb</artifactId>
+
+    <properties>
+        <mapr-db-version>6.0.1-mapr</mapr-db-version>
+        <!--<mapr-db-version-ojai>6.0.1-mapr</mapr-db-version-ojai>-->
+        <!--<mapr-streams-version>0.9.0.0-mapr-1607</-mapr-streams-version>-->
+
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.mapr.db</groupId>
+            <artifactId>maprdb</artifactId>
+            <version>${mapr-db-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.ojai</groupId>
+            <artifactId>ojai</artifactId>
+            <version>2.0.1-mapr-1804</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mapr.ojai</groupId>
+            <artifactId>mapr-ojai-driver</artifactId>
+            <version>${mapr-db-version}</version>
+        </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>mapr-ojai-driver</groupId>-->
+            <!--<artifactId>com.mapr.ojai</artifactId>-->
+            <!--<version>${mapr-db-version-ojai}</version>-->
+        <!--</dependency>-->
+
+
+    </dependencies>
+
+
+</project>

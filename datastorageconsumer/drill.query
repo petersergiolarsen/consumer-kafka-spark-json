@@ -1,0 +1,8 @@
+// url: http://localhost:8047/query
+
+SELECT b.`name`, b.`address`, b.`city`, b.`state`, b.`stars` FROM dfs.`/mapr/maprdemo.mapr.io/apps/business` b
+WHERE b.`review_count` >= 100 AND b.`stars` > 3.5
+ORDER BY b.`stars` DESC
+
+
+SELECT * FROM dfs.`/mapr/maprdemo.mapr.io/apps/digst/borgerdktable` b

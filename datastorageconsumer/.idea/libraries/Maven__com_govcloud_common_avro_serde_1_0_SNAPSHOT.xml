@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.govcloud.common:avro-serde:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/govcloud/common/avro-serde/1.0-SNAPSHOT/avro-serde-1.0-20180523.084935-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/govcloud/common/avro-serde/1.0-SNAPSHOT/avro-serde-1.0-20180523.084935-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/govcloud/common/avro-serde/1.0-SNAPSHOT/avro-serde-1.0-20180523.084935-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
